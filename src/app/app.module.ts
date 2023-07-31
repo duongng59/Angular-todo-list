@@ -8,14 +8,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
 import { FormsModule } from '@angular/forms';
-import { ListComponent } from './component/list/list.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    ListComponent
+
   ],
   imports: [
     BrowserModule,

@@ -45,8 +45,8 @@ getAllTask() {
     this.taskArr= res
     console.log("all the taskes is hear")
   }, err => {
-     alert("Cannot connect to the database. Please connect to JSON server to continue. Open your Terminal and access by typing: json-server --watch db.json")
-     console.log(err)
+    console.log(err)
+    alert("Cannot connect to the database. Please connect to JSON server to continue. Open your Terminal and access by typing: json-server --watch db.json")
   })
 }
 

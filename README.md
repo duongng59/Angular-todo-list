@@ -5,6 +5,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Connect to database
+
+Run `npm install json-server` to install DB Json and after that run `json-server --watch db.json` to connect to the database
 
 ## Code scaffolding
 
@@ -23,4 +26,4 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 ## chưa xử lý xong checkboxes
-Issue: khi tích vào task đã hoàn thành thay vì chỉ gạch đi những task được checked thì toàn bộ task đều chuyển thành check
+Issue: khi tích vào task đã hoàn thành thay vì chỉ gạch đi những task được checked thì toàn bộ task đều chuyển thành checked

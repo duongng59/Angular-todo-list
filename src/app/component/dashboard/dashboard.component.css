@@ -1,0 +1,6 @@
+#check{
+    height: 0.9rem; position: relative; top: 1em;right: 0.25em;
+}
+.task{
+    text-decoration: line-through;
+}
